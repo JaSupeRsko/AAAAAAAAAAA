@@ -13,3 +13,10 @@ Eshell V12.2.1  (abort with ^G)
 
 erl -setcookie cookiecos -sname 'eo'
 rpc:call('node1@aaaa-VirtualBox', aplikacja_server, calculate, [2,3,'+']).
+
+
+
+
+STRONA:
+    wylaczanie czegos:
+        ps -aux | grep rebar3 
