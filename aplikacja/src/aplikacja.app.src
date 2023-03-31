@@ -1,5 +1,5 @@
 {application, aplikacja,
- [{description, "An OTP application"},
+ [{description, "AAAAAAAAAAAAAAAAAAAAAAAA"},
   {vsn, "0.1.0"},
   {registered, []},
   {mod, {aplikacja_app, []}},

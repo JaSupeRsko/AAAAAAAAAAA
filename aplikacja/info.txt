@@ -1,0 +1,15 @@
+rebar3 shell
+po tym musi byc 
+===> Verifying dependencies...
+===> Analyzing applications...
+===> Compiling aplikacja
+src/aplikacja_server.erl:27:13: Warning: variable 'A' is unused
+src/aplikacja_server.erl:27:15: Warning: variable 'B' is unused
+
+Erlang/OTP 24 [erts-12.2.1] [source] [64-bit] [smp:1:1] [ds:1:1:10] [async-threads:1] [jit]
+
+Eshell V12.2.1  (abort with ^G)
+(node1@aaaa-VirtualBox)1> Started===> Booted aplikacja          TAKIE CUS
+
+erl -setcookie cookiecos -sname 'eo'
+rpc:call('node1@aaaa-VirtualBox', aplikacja_server, calculate, [2,3,'+']).
